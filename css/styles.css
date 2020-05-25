@@ -1,0 +1,79 @@
+#conteneur
+{
+    display: flex;
+    flex-direction: column;
+}
+
+body
+{
+    background-image:: url("img/tas_de_coeurs.png");
+    background: rgb(255,0,178);
+    background: linear-gradient(rgba(255,0,178,1) 27%, rgba(160,0,255,1) 67%);
+}
+
+section
+{
+    background-size: 100%;
+    background-position:center center;
+}
+
+header, section, footer
+{
+    text-align: center;
+}
+
+header
+{
+    text-align: center;
+    width: 80%;
+    padding: 12px;
+    margin: 50px;
+}
+
+#First
+{
+    width: 80%;
+    border: 1px solid black;
+    padding: 12px;
+    margin: 50px;
+}
+
+#Second
+{
+    width: 80%;
+    border: 1px solid black;
+    padding: 12px;
+    margin: 50px;
+}
+
+#Second
+{
+  display: none;
+}
+
+#Third
+{
+    width: 80%;
+    border: 1px solid black;
+    padding: 12px;
+    margin: 50px;
+}
+
+#Third
+{
+  display: none;
+}
+
+#message_popup
+{
+    display:none;
+}
+
+footer
+{
+    width: 80%;
+    padding: 12px;
+    margin: 50px;
+
+}
+
